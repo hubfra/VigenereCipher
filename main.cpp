@@ -67,9 +67,7 @@ int main()
 	while (input >> noskipws >> c)
 	{
 		if (c >= 'a' && c <= 'z')
-		{
 			c -= 32;
-		}
 
 		if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z'))
 		{
