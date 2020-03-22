@@ -49,5 +49,8 @@ int main()
 		output << c;
 	}
 
+	input.close();
+	output.close();
+	
 	return 0;
 }
