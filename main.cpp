@@ -2,7 +2,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <vector>
 
 using namespace std;
 
@@ -19,8 +18,7 @@ int main()
 	ofstream output("output.txt");
 	char action = '1';
 
-	cout << "Encrypt - 1\nDecrypt - 2\n";
-	cout << "Choose action: ";
+	cout << "Encryption - 1\nDecryption - 2\nChoose action(1,2): ";
 	cin >> action;
 	cout << "\nEnter key: ";
 	cin >> key;
